@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto mono';
+        }
+        .list ul li{
+            list-style: none;
+            display : inline-block;
+            padding : 38px 50px;
+            margin: 15px;
+            font-size : 20px;
+        }
+        .navbar{
+            position : sticky;
+            font-weight :bold;
+            background-color :palevioletred;
+            
+        }
+        .list ul li a{
+            text-decoration :none;
+            color :bisque;
+        }
+        body{
+            background-color:aqua;
+        }
+        .main{
+            display : flex;
+            margin: 20px;
+            background-color:rgba(111, 111, 235, 0.856);
+            
+        }
+        .box{
+            /* border : 2px solid black; */
+            margin: 60px;
+            width : 50%;
+            padding-bottom: 320px;
+        }
+        .box:nth-child(1){
+            background-color:rgba(205, 140, 248, 0.856);
+        }
+        .box:nth-child(2){
+            background-color: rgba(101, 201, 226, 0.945);
+        }
+        .welcome{
+            color : white;
+            border-radius : 30px;
+            margin : 10px 60px 40px 60px;
+            border : 2px solid white;
+            font-weight : bold;
+            font-size: large;
+            padding : 55px;
+            margin : auto;
+            color : black;
+            width : 60%;
+            text-align: center;
+        }
+        .logo{
+            border-radius: 50%;
+            float : right;
+            background-color: blueviolet;
+            padding : 23px;
+            margin-right : 10px;
+            position : fixed;
+             bottom :0;
+             right : 0;  
+            border : 2px solid red; 
+        }
+        .last{
+            background-color: grey;
+            padding : 55px;
+            margin-top : 60px;
+            text-align: center;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="list"><ul>
+                <li><a href="">HOME</a></li>
+                <li> <a href="">ABOUT</a></li>
+                <li ><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <div class="main">
+        <div class="box">i am a box</div>
+        <div class="box">i am also a box</div>
+    </div>
+    <div class="logo">hey</div>
+    <div class="welcome">Welcome to this Sigma Web Development Express</div>
+    <footer>
+        <div class="last">THANK YOU FOR VISTING</div>
+    </footer>
+</body>
+</html>

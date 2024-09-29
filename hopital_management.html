@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <h1>Hospital Management System</h1>
+
+    <section>
+        <h2>Patient Management</h2>
+        <input type="text" id="patientName" placeholder="Patient Name">
+        <input type="number" id="patientAge" placeholder="Age">
+        <input type="text" id="patientGender" placeholder="Gender">
+        <input type="text" id="patientContact" placeholder="Contact Info">
+        <textarea id="patientHistory" placeholder="Medical History"></textarea>
+        <button id="addPatientButton">Add Patient</button>
+        <ul id="patientList"></ul>
+    </section>
+
+    <section>
+        <h2>Doctor Management</h2>
+        <input type="text" id="doctorName" placeholder="Doctor Name">
+        <input type="text" id="doctorSpecialization" placeholder="Specialization">
+        <input type="text" id="doctorContact" placeholder="Contact Info">
+        <button id="addDoctorButton">Add Doctor</button>
+        <ul id="doctorList"></ul>
+    </section>
+
+    <section>
+        <h2>Appointment Scheduling</h2>
+        <select id="patientSelect"></select>
+        <select id="doctorSelect"></select>
+        <input type="date" id="appointmentDate">
+        <textarea id="appointmentDescription" placeholder="Appointment Details"></textarea>
+        <button id="addAppointmentButton">Schedule Appointment</button>
+        <ul id="appointmentList"></ul>
+    </section>
+
+    <script src="script2.js"></script>
+</body>
+</html>

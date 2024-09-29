@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-color navbar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            background-color: var(--color) ; 
+            color : var(--seccolor);
+        }
+        body{
+            /* display : flex; */
+            background-color: antiquewhite;
+        }
+         .list ul li{ 
+            list-style-type: none;
+            display : inline-block;
+            padding : 20px 60px;
+            margin: 10px;
+        }
+        :root{
+            --color : rgb(177, 177, 252);
+            --seccolor : rgb(87, 182, 214);
+        } 
+        .list ul li a{
+            text-decoration: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="list">
+                 <ul>
+                     <li><a href="/">HOME</a></li>
+                     <li><a href="/">ABOUT</a></li>
+                     <li><a href="/">CONTACT</a></li>
+                     <li><a href="/">ACCOUNT</a></li>
+                    </ul> 
+            </div>
+        </div>
+    </header>
+</body>
+</html>

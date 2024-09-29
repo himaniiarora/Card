@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trying attributes</title>
+    <style>
+        /* .box:nth-child(2) {
+            color : brown;
+            background-color: aqua;
+        } */
+         .boxes *{
+            color :tomato;
+            background-color: beige;
+            border : 2px solid yellow;
+            margin : 4px;
+        } 
+        /* [type = "text"]{
+            padding : 45px; 
+        }*/
+        .boxes::after{
+            content: "hello world";
+        }
+        ::selection{
+            color :aquamarine;
+            background-color: black;
+        }
+        .boxes ::first-letter{
+            color :red;
+            text-transform: lowercase;
+            font-size: 34px;
+        }
+        input::placeholder{
+            color : red;
+            font-size: 34px;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div  class="box">Hello i am a div...</div>
+        <div class="box">Hello i am a div...</div>
+        <div type = "text" class="box">Hello i am a div...</div>
+    </div>
+    <input type ="text" placeholder = "Type your name"/>
+</body>
+</html>

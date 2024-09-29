@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f4f4f4; /* Light background for contrast */
+}
+
+header {
+    background: #00296b; /* Dark Blue */
+    color: #ffffff; /* White */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White */
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #ffffff; /* White background for sections */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #00296b; /* Dark Blue */
+}
+
+.department, .doctor {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #00509d; /* Medium Blue */
+    border-radius: 5px;
+    background: #fdc500; /* Yellow */
+}
+
+.department i, .doctor i {
+    font-size: 30px;
+    color: #003f88; /* Light Blue */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #00296b; /* Dark Blue */
+    color: #ffffff; /* White */
+}
+
+button {
+    background: #ffd500; /* Bright Yellow */
+    color: #00296b; /* Dark Blue */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #fdc500; /* Slightly darker yellow on hover */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+
+header {
+    background: #00296b;
+    color: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #00296b;
+}
+
+.department, .doctor {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #00509d;
+    border-radius: 5px;
+    background: #fdc500;
+}
+
+.department img, .doctor img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #00296b;
+    color: #ffffff;
+}
+
+a {
+    color: #003f88;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
